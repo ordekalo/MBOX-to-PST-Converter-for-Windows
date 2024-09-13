@@ -1,0 +1,12 @@
+
+### 4. `.gitignore`
+
+Add this file to ensure that unnecessary files (such as temporary files or Python bytecode) are not added to the GitHub repository:
+
+```gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.vscode/
+.env
